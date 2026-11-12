@@ -25,7 +25,7 @@ EOT
         v.state == null || (contains(["open", "closed"], v.state))
       )
     ])
-    error_message = "must be one of: open, closed"
+    error_message = "must be one of: \"open\", \"closed\""
   }
 }
 
